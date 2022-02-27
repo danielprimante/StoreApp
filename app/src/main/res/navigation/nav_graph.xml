@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="el.gran.myapplication.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="el.gran.myapplication.ui.FavFragment"
+        android:label="fragment_fav"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/bagFragment"
+        android:name="el.gran.myapplication.ui.BagFragment"
+        android:label="fragment_bag"
+        tools:layout="@layout/fragment_bag" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="el.gran.myapplication.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_configProfileDataFragment"
+            app:destination="@id/configProfileDataFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_configChangePassFragment"
+            app:destination="@id/configChangePassFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configProfileDataFragment"
+        android:name="el.gran.myapplication.config.ConfigProfileDataFragment"
+        android:label="fragment_config_profile_data"
+        tools:layout="@layout/fragment_config_profile_data" >
+        <action
+            android:id="@+id/action_configProfileDataFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/configChangePassFragment"
+        android:name="el.gran.myapplication.config.ConfigChangePassFragment"
+        android:label="fragment_config_change_pass"
+        tools:layout="@layout/fragment_config_change_pass" >
+        <action
+            android:id="@+id/action_configChangePassFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+</navigation>

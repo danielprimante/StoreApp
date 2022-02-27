@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="todo">TODO</string>
+    <string name="nombre_usuario">Ingrese email</string>
+    <string name="pass">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="inicia_google">Inicia con Google</string>
+    <string name="inicia_facebook">Inicia con Facebook</string>
+    <string name="pref_file">el.gran.myapplication.PREFERENCE_FILE_KEY</string>
+    <string name="registrar">Registrarse</string>
+    <string name="olvide_mi">Olvide mi Contraseña</string>
+    <string name="recordar">Recordar Contraseña</string>
+    <string name="retablecer_pass">Ingresa tu direccion de E-mail y te enviaremos los datos para retablecer tu contraseña</string>
+    <string name="restablecer_pass">Restablecer Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="localidad">Localidad</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="politica_privacidad">Politica de privacidad</string>
+    <string name="enviar">Enviar</string>
+    <string name="terminos">Acepto los terminos y condiciones</string>
+    <string name="usuario_email">Ingrese Email</string>
+    <string name="repetir_pass">Repetir Contraseña</string>
+    <string name="email">Email</string>
+    <string name="la_contrase_debe">* La contraseña debe tener 8 digitos, debe contener (al menos uno de cada) mayusculas , minusculas , numeros y  simbolos</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="actualizarDatos">Actualizar Datos</string>
+    <string name="oldPass">Contraseña Anterior</string>
+    <string name="newPass">Contraseña Nueva</string>
+    <string name="updatePass">Actualizar Contraseña</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
